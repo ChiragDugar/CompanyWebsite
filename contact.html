@@ -20,6 +20,8 @@
       width: 100% !important;
       margin-left: 0% !important;
     }
+    
+
   }
 
 
@@ -33,6 +35,20 @@
     box-shadow: 7px 7px grey !important;
     border-radius: 5px;
   }
+
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
   h2{
     font-family: Rubik,sans-serif;
@@ -129,9 +145,15 @@
 
   
 
-   <center><div class="mapouter"><div class="gmap_canvas"><iframe width="946" height="628" id="gmap_canvas" src="https://maps.google.com/maps?q=North%20Mada%20Street%20Vadapalani&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:628px;width:946px;}.gmap_canvas {overflow:hidden;background:none!important;height:628px;width:946px;}</style></div></center> <br><br> <br>
+   <!-- <center><div class="ph mapouter"><div class="gmap_canvas"><iframe width="946" height="628" id="gmap_canvas" src="https://maps.google.com/maps?q=North%20Mada%20Street%20Vadapalani&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:628px;width:946px;}.gmap_canvas {overflow:hidden;background:none!important;height:628px;width:946px;}</style></div></center> <br><br> <br> -->
 
- <!-- START: section -->
+
+  <div class="map-responsive">
+    <iframe width="946" height="628" id="gmap_canvas" src="https://maps.google.com/maps?q=North%20Mada%20Street%20Vadapalani&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  </div>
+  <br><br> 
+ 
+  <!-- START: section -->
  <section class="probootstrap-section probootstrap-section-colored">
     <div class="container">
       <div class="row text-center">
